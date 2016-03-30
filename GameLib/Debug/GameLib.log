@@ -1,0 +1,23 @@
+﻿Build started 2015/04/16 21:52:46.
+     1>Project "C:\Program.Houdou\cpp\GameLib\GameLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GameLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt GameObject.cpp /clr:nostdlib 
+         GameObject.cpp
+         All outputs are up-to-date.
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Program.Houdou\cpp\GameLib\Debug\GameLib.lib" /NOLOGO Debug\GameObject.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>.NETFramework,Version=v4.0.AssemblyAttributes.obj : warning LNK4221: 此
+         GameLib.vcxproj -> C:\Program.Houdou\cpp\GameLib\Debug\GameLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\GameLib.unsuccessfulbuild".
+         Touching "Debug\GameLib.lastbuildstate".
+     1>Done Building Project "C:\Program.Houdou\cpp\GameLib\GameLib.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:00.67

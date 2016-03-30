@@ -1,0 +1,29 @@
+﻿Build started 2015/4/17 18:37:29.
+     1>Project "F:\桌面\Login\Login\Login.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Login.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         E:\程序\VS2010\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt Login.cpp /clr:nostdlib 
+         Login.cpp
+     1>Login.cpp(174): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\程序\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>Login.cpp(195): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\程序\VS2010\VC\include\string.h(110) : see declaration of 'strcat'
+     1>Login.cpp(200): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\程序\VS2010\VC\include\stdlib.h(867) : see declaration of 'itoa'
+         All outputs are up-to-date.
+       Lib:
+         E:\程序\VS2010\VC\bin\Lib.exe /OUT:"F:\桌面\Login\Debug\Login.lib" /NOLOGO Debug\Login.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>.NETFramework,Version=v4.0.AssemblyAttributes.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Login.vcxproj -> F:\桌面\Login\Debug\Login.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Login.unsuccessfulbuild".
+         Touching "Debug\Login.lastbuildstate".
+     1>Done Building Project "F:\桌面\Login\Login\Login.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

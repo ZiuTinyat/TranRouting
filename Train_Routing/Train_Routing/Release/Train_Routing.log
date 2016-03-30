@@ -1,0 +1,45 @@
+﻿Build started 2015/04/17 11:49:51.
+     1>Project "C:\Program.Houdou\cpp\Train_Routing\Train_Routing\Train_Routing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Train_Routing.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program.Houdou\cpp\Train_Routing\Release\Train_Routing.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Train_Routing.Form1.resources /ASSEMBLYRESOURCE:Release\Train_Routing.Login.resources /ASSEMBLYRESOURCE:Release\Train_Routing.Mainmenu.resources /MANIFEST /ManifestFile:"Release\Train_Routing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program.Houdou\cpp\Train_Routing\Release\Train_Routing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\Login.obj
+         Release\Mainmenu.obj
+         Release\stdafx.obj
+         Release\Train_Routing.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         GameLib.lib
+         Login.lib
+     1>GameLib.lib(GameObject.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(Login.obj 中)
+     1>Login.lib(Login.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(Login.obj 中)
+     1>GameLib.lib(GameObject.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std.basic_string<char,std::char_traits<char>,std::allocator<char> >): (0x02000058)。
+     1>GameLib.lib(GameObject.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_val<char,std::allocator<char> >): (0x0200009b)。
+     1>Login.lib(Login.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std.basic_string<char,std::char_traits<char>,std::allocator<char> >): (0x02000066)。
+     1>Login.lib(Login.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_val<char,std::allocator<char> >): (0x020000ac)。
+     1>MSVCURT.lib(locale0_implib.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_const_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x02000030)。
+     1>MSVCURT.lib(locale0_implib.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x020000c8)。
+     1>MSVCURT.lib(wlocale.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_const_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x0200002f)。
+     1>MSVCURT.lib(wlocale.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x02000116)。
+     1>MSVCURT.lib(xlocale.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_const_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x0200002f)。
+     1>MSVCURT.lib(xlocale.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x020000ea)。
+     1>MSVCURT.lib(xdateord.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_const_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x0200005f)。
+     1>MSVCURT.lib(xdateord.obj) : error LNK2022: 元数据操作失败(8013118D): 重複する型に、適合しないレイアウト情報があります (std._String_iterator<char,std::char_traits<char>,std::allocator<char> >): (0x020000f6)。
+     1>LINK : fatal error LNK1215: 元数据操作失败(80004005): エラーを特定できません
+         
+     1>Done Building Project "C:\Program.Houdou\cpp\Train_Routing\Train_Routing\Train_Routing.vcxproj" (build target(s)) -- FAILED.
+
+生成失败。
+
+Time Elapsed 00:00:00.62
